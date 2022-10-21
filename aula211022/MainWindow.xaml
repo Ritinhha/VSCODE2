@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <GroupBox Header="Area e Diagonal">
+
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="22,38,0,0" Text="Base" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="60"/>
+                <TextBlock HorizontalAlignment="Left" Margin="230,38,0,0" Text="Altura" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Margin="22,71,0,0" Text=" 3" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+                <TextBox HorizontalAlignment="Left" Margin="230,71,0,0" Text=" 4" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+                <Button Content="Calcular" HorizontalAlignment="Left" Margin="22,117,0,0" VerticalAlignment="Top" Height="35" Width="328"/>
+                <TextBlock HorizontalAlignment="Left" Margin="22,206,0,0" Text="Area" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Left" Margin="230,209,0,0" Text="Diagonal" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBox HorizontalAlignment="Left" Margin="22,252,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+                <TextBox HorizontalAlignment="Left" Margin="230,252,0,0" Text=" " TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+
+            </Grid>
+
+        </GroupBox>
 
     </Grid>
 </Window>
