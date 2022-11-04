@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\temp\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
+      "projectUniqueName": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
       "projectName": "Projeto",
-      "projectPath": "C:\\temp\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
+      "projectPath": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
       "packagesPath": "C:\\Users\\20201011110020\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\VSCODE2\\pasta\\Projeto\\obj\\",
+      "outputPath": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20201011110020\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

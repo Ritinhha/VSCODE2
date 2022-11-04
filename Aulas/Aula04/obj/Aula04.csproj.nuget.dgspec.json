@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj": {}
+    "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula04\\Aula04.csproj": {}
   },
   "projects": {
-    "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj": {
+    "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula04\\Aula04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
-        "projectName": "Projeto",
-        "projectPath": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
+        "projectUniqueName": "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula04\\Aula04.csproj",
+        "projectName": "Aula04",
+        "projectPath": "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula04\\Aula04.csproj",
         "packagesPath": "C:\\Users\\20201011110020\\.nuget\\packages\\",
-        "outputPath": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\obj\\",
+        "outputPath": "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula04\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20201011110020\\AppData\\Roaming\\NuGet\\NuGet.Config",

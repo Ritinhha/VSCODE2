@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\VSCODE2\\aula211022\\aula211022.csproj": {}
+    "C:\\pastaPEOO2\\VSCODE2\\aula211022\\aula211022.csproj": {}
   },
   "projects": {
-    "C:\\temp\\VSCODE2\\aula211022\\aula211022.csproj": {
+    "C:\\pastaPEOO2\\VSCODE2\\aula211022\\aula211022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\VSCODE2\\aula211022\\aula211022.csproj",
+        "projectUniqueName": "C:\\pastaPEOO2\\VSCODE2\\aula211022\\aula211022.csproj",
         "projectName": "aula211022",
-        "projectPath": "C:\\temp\\VSCODE2\\aula211022\\aula211022.csproj",
+        "projectPath": "C:\\pastaPEOO2\\VSCODE2\\aula211022\\aula211022.csproj",
         "packagesPath": "C:\\Users\\20201011110020\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\VSCODE2\\aula211022\\obj\\",
+        "outputPath": "C:\\pastaPEOO2\\VSCODE2\\aula211022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20201011110020\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

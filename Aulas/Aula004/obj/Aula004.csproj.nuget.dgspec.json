@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj": {}
+    "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula004\\Aula004.csproj": {}
   },
   "projects": {
-    "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj": {
+    "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula004\\Aula004.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
-        "projectName": "Projeto",
-        "projectPath": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\Projeto.csproj",
+        "projectUniqueName": "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula004\\Aula004.csproj",
+        "projectName": "Aula004",
+        "projectPath": "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula004\\Aula004.csproj",
         "packagesPath": "C:\\Users\\20201011110020\\.nuget\\packages\\",
-        "outputPath": "C:\\pastaPEOO2\\VSCODE2\\pasta\\Projeto\\obj\\",
+        "outputPath": "C:\\pastaPEOO2\\VSCODE2\\Aulas\\Aula004\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20201011110020\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -52,6 +52,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
