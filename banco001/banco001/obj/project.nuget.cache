@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8aTgof/5F4ygHMtfmsZKL4YhYynbqhXf6uT/uEtF948rnkDumgIeGVBbi0hhFzKExcgN4Rztuuh4GVIs1ygVXg==",
+  "dgSpecHash": "CejlyPIXPJE02FEHlKCSK6+Lsm8ULj22z3j/6PGzURWhk1wu4fma4PICOKpZErmXYTfvjFJzfVYwBawi14cvkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\20201011110020\\source\\repos\\banco001\\banco001\\banco001.csproj",
+  "projectFilePath": "C:\\Users\\20201011110020\\Desktop\\VSCODE2\\banco001\\banco001\\banco001.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\20201011110020\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
     "C:\\Users\\20201011110020\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",

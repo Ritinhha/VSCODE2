@@ -7,8 +7,6 @@ namespace banco001
     public class Cliente
     {
         public int idCliente { get; set; }
-        
-        public int idbanco { get; set; }
 
         public string nomecliente { get; set; }
 
@@ -22,7 +20,7 @@ namespace banco001
         
         public override string ToString()
         {
-            return $"{idbanco}-{idCliente}-{nomecliente}-{datanascimento}-{cpf}-{tel}";
+            return $"{idCliente}-{nomecliente}-{datanascimento}-{cpf}-{tel}";
         }
     }
 }

@@ -6,14 +6,16 @@ namespace banco001
 {
    public class Conta
     {
-        public int idconta { get; set; }
+        public int idConta { get; set; }
 
-        public int idcliente { get; set; }
+        public Cliente cliente { get; set; }
+
+        public Banco banco { get; set; }
 
         public double saldo { get; set; }
         public override string ToString()
         {
-            return $"{idconta}-{idcliente}-{saldo}R$";
+            return $"{idConta}-{cliente.nomecliente}-{banco.nomebanco}-{saldo}R$";
         }
     }
 }

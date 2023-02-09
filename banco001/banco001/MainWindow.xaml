@@ -12,21 +12,19 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Banco" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Height="53" Width="113"/>
-        <TextBox x:Name="Idbanco" HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="24"/>
-        <TextBox x:Name="nomebanco" HorizontalAlignment="Left" Margin="151,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Height="24"/>
-        <TextBox x:Name="numerobanco" HorizontalAlignment="Left" Height="24" Margin="400,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"/>
+        <TextBox x:Name="nomebanco" HorizontalAlignment="Left" Margin="13,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="361" Height="24"/>
+        <TextBox x:Name="numerobanco" HorizontalAlignment="Left" Height="24" Margin="400,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
         <TextBox x:Name="tellbanco" HorizontalAlignment="Left" Height="25" Margin="585,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
-        <Button x:Name="inerirbanco" Content="Inserir" HorizontalAlignment="Left" Height="37" Margin="10,146,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="inserirbanco" Content="Inserir" HorizontalAlignment="Left" Height="37" Margin="12,146,0,0" VerticalAlignment="Top" Width="120" Click="inserirbanco_Click"/>
         <Button x:Name="cadastraclientenobanco" Content="Cadastra cliente no banco" HorizontalAlignment="Left" Height="37" Margin="400,145,0,0" VerticalAlignment="Top" Width="155" Click="cadastraclientenobanco_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Height="20" Width="15"><Run Language="pt-br" Text="ID"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="151,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Height="20" Width="41"><Run Language="pt-br" Text="Nome"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="14,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Height="20" Width="41"><Run Language="pt-br" Text="Nome"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="400,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Height="20" Width="66"><Run Language="pt-br" Text="Número"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="585,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Height="20" Width="22"><Run Language="pt-br" Text="Tell"/></TextBlock>
-        <Button x:Name="clientesbanco" Content="Listar clientes do banco" HorizontalAlignment="Left" Margin="585,146,0,0" VerticalAlignment="Top" Height="37" Width="196"/>
-        <ListBox x:Name="listabanco" Margin="13,230,19,24"/>
+        <Button x:Name="bancos" Content="Listar bancos" HorizontalAlignment="Left" Margin="585,146,0,0" VerticalAlignment="Top" Height="37" Width="196" Click="bancos_Click"/>
+        <DataGrid x:Name="listabanco" Margin="14,228,20,10" IsReadOnly="True" SelectionMode="Single" SelectionChanged="listabanco_SelectionChanged" />
         <TextBlock HorizontalAlignment="Left" Margin="12,203,0,0" Text="Clientes do banco" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Height="20" Width="119"/>
-        <Button x:Name="atualizarbanco" Content="Atualizar" HorizontalAlignment="Left" Margin="151,144,0,0" VerticalAlignment="Top" Width="101" Height="38"/>
-        <Button Content="Excluir" HorizontalAlignment="Left" Margin="274,145,0,0" VerticalAlignment="Top" Height="37" Width="100"/>
+        <Button x:Name="atualizarbanco" Content="Atualizar" HorizontalAlignment="Left" Margin="151,144,0,0" VerticalAlignment="Top" Width="101" Height="38" Click="atualizarbanco_Click"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Margin="274,145,0,0" VerticalAlignment="Top" Height="37" Width="100" Click="Button_Click"/>
 
     </Grid>
 </Window>

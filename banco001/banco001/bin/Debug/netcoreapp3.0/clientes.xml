@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <idCliente>1</idCliente>
+    <nomecliente>Rita</nomecliente>
+    <datanascimento>484848484848</datanascimento>
+    <cpf>454848884</cpf>
+    <tel>4848484848</tel>
+  </Cliente>
+</ArrayOfCliente>

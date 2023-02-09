@@ -6,66 +6,44 @@ using System.Xml.Serialization;
 
 namespace banco001
 {
-    static class Nbanco
+    class Nbanco
     {
-       static private List<Banco> bancos = new List<Banco>();
+        private PBanco pbanco = new PBanco();
+        private List<Banco> bancos = new List<Banco>();
 
-        public static void inserir(Banco x)
+        public void inserir(Banco x)
         {
-            Abrir();
+            bancos = pbanco.Abrir();
             bancos.Add(x);
+            pbanco.Salvar(bancos);
         }
 
-        public static List<Banco> listar()
+        public List<Banco> listar()
         {
-            Abrir();
+            List<Banco> bancos = pbanco.Abrir();
             return bancos;
         }
-        public static void excluir(Banco g)
+        public void excluir(Banco g)
         {
-            Abrir();
+            bancos = pbanco.Abrir();
             bancos.Remove(Checar(g.idbanco));
-            Salvar();
+            pbanco.Salvar(bancos);
         }
-        public static void Atualizar(Banco g)
+        public void Atualizar(Banco g)
             {
-                Abrir();
+                bancos = pbanco.Abrir();
                 Banco n = Checar(g.idbanco);
                 n.telbanco = g.telbanco;
                 n.nomebanco = g.nomebanco;
                 n.numerobanco = g.numerobanco;
-                Salvar();
+                pbanco.Salvar(bancos);
             }
 
-        public static Banco Checar(int id)
+        public Banco Checar(int id)
             {
                 foreach (Banco g in bancos)
                     if (g.idbanco == id) return g;
                 return null;
             }
-        public static void Salvar()
-        {
-            XmlSerializer x = new XmlSerializer(typeof(List<Banco>));
-            StreamWriter f = new StreamWriter("./banc.xml", false);
-            x.Serialize(f, bancos);
-            f.Close();
-
-        }
-
-        public static void Abrir()
-        {
-            StreamReader f = null;
-            try
-            {
-                XmlSerializer x = new XmlSerializer(typeof(List<Banco>));
-                f = new StreamReader("./banc.xml");
-                bancos = (List<Banco>)x.Deserialize(f);
-            }
-            catch
-            {
-                bancos = new List<Banco>();
-            }
-            if (f != null) f.Close();
-        }
     }
 }

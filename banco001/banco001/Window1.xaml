@@ -5,29 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:banco001"
         mc:Ignorable="d"
-        Title="Banco" Height="497" Width="655">
+        Title="Banco" Height="497" Width="569">
 
-    <Grid HorizontalAlignment="Center" Width="654" Margin="0,10,0,-6">
-        <TextBox x:Name="idcliente" HorizontalAlignment="Left" Margin="24,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="28"/>
-        <TextBox x:Name="idbanco" HorizontalAlignment="Left" Margin="170,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" Height="29"/>
-        <TextBox x:Name="nomecliente" HorizontalAlignment="Left" Height="28" Margin="336,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
-        <TextBox x:Name="cpfcliente" HorizontalAlignment="Left" Height="28" Margin="199,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209"/>
-        <TextBox x:Name="datanascimento" HorizontalAlignment="Left" Height="28" Margin="25,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
-        <TextBox x:Name="telll" HorizontalAlignment="Left" Height="28" Margin="428,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
-
-        <TextBlock x:Name="jkjk" HorizontalAlignment="Left" Margin="23,78,0,0" Text="ID" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
-        <TextBlock HorizontalAlignment="Left" Margin="169,77,0,0" Text="ID do Banco" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
-        <TextBlock x:Name="fffdf" HorizontalAlignment="Left" Margin="334,78,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
-        <TextBlock HorizontalAlignment="Left" Margin="23,142,0,0" Text="Data de Nascimento" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
-        <TextBlock HorizontalAlignment="Left" Margin="197,142,0,0" Text="CPF" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
-        <TextBlock HorizontalAlignment="Left" Margin="426,142,0,0" Text="Tell" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
+    <Grid HorizontalAlignment="Center" Width="564" Margin="0,10,0,-6">
+        <TextBox x:Name="nomecliente" HorizontalAlignment="Left" Height="28" Margin="15,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
+        <TextBox x:Name="cpfcliente" HorizontalAlignment="Left" Height="28" Margin="329,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209"/>
+        <TextBox x:Name="datanascimento" HorizontalAlignment="Left" Height="28" Margin="15,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="tell" HorizontalAlignment="Left" Height="28" Margin="205,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333"/>
+        <TextBlock x:Name="fffdf" HorizontalAlignment="Left" Margin="15,66,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,133,0,0" Text="Data de Nascimento" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="327,70,0,0" Text="CPF" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="203,131,0,0" Text="Tell" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
         <TextBlock HorizontalAlignment="Left" Margin="24,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Width="424"><Run Text="Cadastro"/><Run Text="  do"/><Run Language="pt-br" Text=" Cliente"/><Run Text=" "/></TextBlock>
-        <Button x:Name="cadastraclientenaconta" Content="Criar conta" HorizontalAlignment="Left" Margin="344,228,0,0" VerticalAlignment="Top" Height="37" Width="123" Click="cadastraclientenaconta_Click"/>
-        <Button x:Name="listarcontas" Content="Listar Contas" HorizontalAlignment="Left" Margin="495,228,0,0" VerticalAlignment="Top" Height="37" Width="122"/>
-        <ListBox Margin="24,296,37,29"/>
-        <Button x:Name="excluircliente" Content="Excluir" HorizontalAlignment="Left" Margin="242,229,0,0" VerticalAlignment="Top" Height="35" Width="66"/>
-        <Button x:Name="inserircliente" Content="Inserir" HorizontalAlignment="Left" Margin="29,229,0,0" VerticalAlignment="Top" Height="35" Width="72"/>
-        <Button x:Name="atualizarcliente" Content="Atualizar" HorizontalAlignment="Left" Margin="137,229,0,0" VerticalAlignment="Top" Height="35" Width="70"/>
+        <Button x:Name="cadastraclientenaconta" Content="Gerenciar Contas" HorizontalAlignment="Left" Margin="415,196,0,0" VerticalAlignment="Top" Height="37" Width="123" Click="cadastraclientenaconta_Click"/>
+        <Button x:Name="excluircliente" Content="Excluir" HorizontalAlignment="Left" Margin="242,197,0,0" VerticalAlignment="Top" Height="35" Width="66" Click="excluircliente_Click"/>
+        <Button x:Name="inserircliente" Content="Inserir" HorizontalAlignment="Left" Margin="29,197,0,0" VerticalAlignment="Top" Height="35" Width="72" Click="inserircliente_Click"/>
+        <Button x:Name="atualizarcliente" Content="Atualizar" HorizontalAlignment="Left" Margin="137,197,0,0" VerticalAlignment="Top" Height="35" Width="70" Click="atualizarcliente_Click"/>
+        <DataGrid x:Name="listaClientes" Margin="11,289,25,16" SelectionChanged="listaClientes_SelectionChanged" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"><Run Language="pt-br" Text="Clientes"/></TextBlock>
 
     </Grid>
 </Window>

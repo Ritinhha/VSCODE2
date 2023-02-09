@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBanco xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Banco>
+    <idbanco>2</idbanco>
+    <nomebanco>Nubank</nomebanco>
+    <numerobanco>45445</numerobanco>
+    <telbanco>484848</telbanco>
+  </Banco>
+  <Banco>
+    <idbanco>3</idbanco>
+    <nomebanco>Rita </nomebanco>
+    <numerobanco>484848484848</numerobanco>
+    <telbanco>454848</telbanco>
+  </Banco>
+  <Banco>
+    <idbanco>4</idbanco>
+    <nomebanco>Itau</nomebanco>
+    <numerobanco>151515</numerobanco>
+    <telbanco>1545</telbanco>
+  </Banco>
+</ArrayOfBanco>

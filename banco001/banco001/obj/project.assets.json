@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20201011110020\\source\\repos\\banco001\\banco001\\banco001.csproj",
+      "projectUniqueName": "C:\\Users\\20201011110020\\Desktop\\VSCODE2\\banco001\\banco001\\banco001.csproj",
       "projectName": "banco001",
-      "projectPath": "C:\\Users\\20201011110020\\source\\repos\\banco001\\banco001\\banco001.csproj",
+      "projectPath": "C:\\Users\\20201011110020\\Desktop\\VSCODE2\\banco001\\banco001\\banco001.csproj",
       "packagesPath": "C:\\Users\\20201011110020\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20201011110020\\source\\repos\\banco001\\banco001\\obj\\",
+      "outputPath": "C:\\Users\\20201011110020\\Desktop\\VSCODE2\\banco001\\banco001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20201011110020\\AppData\\Roaming\\NuGet\\NuGet.Config",

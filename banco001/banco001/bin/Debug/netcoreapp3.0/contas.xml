@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfConta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Conta>
+    <idConta>1</idConta>
+    <cliente>
+      <idCliente>1</idCliente>
+      <nomecliente>Rita</nomecliente>
+      <datanascimento>484848484848</datanascimento>
+      <cpf>454848884</cpf>
+      <tel>4848484848</tel>
+    </cliente>
+    <banco>
+      <idbanco>4</idbanco>
+      <nomebanco>Itau</nomebanco>
+      <numerobanco>151515</numerobanco>
+      <telbanco>1545</telbanco>
+    </banco>
+    <saldo>4584848</saldo>
+  </Conta>
+</ArrayOfConta>
